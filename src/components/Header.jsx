@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "../utils/userSlice";
-import { Netflix_Logo } from "../utils/constants";
+import { Gemflix_Logo } from "../utils/constants";
 import { toggleGptSearchView } from "../utils/gptSlice";
 import { SUPPORTED_LANGUAGES } from "../utils/constants";
 import { changelanguage } from "../utils/configSlice";
@@ -69,7 +69,7 @@ const Header = () => {
 
   return (
     <div className={`absolute w-screen  px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between md:items-center `}>
-      <img className="w-44 justify-center mx-auto md:mx-0" src={Netflix_Logo} alt="Netflix_Logo" />
+      <img className="w-44 justify-center mx-auto md:mx-0" src={Gemflix_Logo} alt="Gemflix_Logo" />
       {user && (
         <div className="flex justify-between py-2 md:gap-3 ">
           {showGptSearch && (

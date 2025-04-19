@@ -9,7 +9,7 @@ import {
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_AVATAR, Netflix_Background } from "../utils/constants";
+import { USER_AVATAR, Gemflix_Background } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -106,7 +106,7 @@ const Login = () => {
       <div className="absolute h-full ">
         <img
           className="h-screen object-cover md:w-screen md:h-145.6"
-          src={Netflix_Background}
+          src={Gemflix_Background}
           alt="Logo"
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -166,7 +166,7 @@ const Login = () => {
         <p className="py-6 cursor-pointer" onClick={toggleSignInForm}>
           {isSignInForm ? (
             <>
-              New to Netflix? <u>Sign up </u>.
+              New to Gemflix? <u>Sign up </u>.
             </>
           ) : (
             <>

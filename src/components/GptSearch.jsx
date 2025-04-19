@@ -1,6 +1,6 @@
 import GptMovieSuggestion from "./GptMovieSuggestion";
 import GptSearchBar from "./GptSearchBar";
-import { Netflix_Background } from "../utils/constants";
+import { Gemflix_Background } from "../utils/constants";
 
 const GptSearch = () => {
   return (
@@ -8,7 +8,7 @@ const GptSearch = () => {
       <div className="fixed bg-black min-h-f min-w-fit -z-10 box-border">
         <img
           className=" h-screen object-cover md:w-screen"
-          src={Netflix_Background}
+          src={Gemflix_Background}
           alt="logo"
         />
         <div className="fixed inset-0 bg-black opacity-50"></div>

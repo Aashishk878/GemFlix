@@ -1,5 +1,5 @@
 "Reading Documentation is a superpower of a developer"
-# Netflix GPT
+# GEMFLIX
 
 - using vite configured react
 - configured tailwindCSS
@@ -14,7 +14,7 @@
     1. you can use state varibale and bind that varibale along with the input box as soon as type on the input box the state variable will change => create state variable for email name password 
     2. you can use the reference of those input boxes => useRef
 - FireBase Setup
-- Autentication (using firebase for the authentication) 
+- Authentication (using firebase for the authentication) 
 configured the project on the FireBase and you can also deploy the project on the firebase 
 - create SignUp User account 
 - verify SignIn User
@@ -29,14 +29,14 @@ configured the project on the FireBase and you can also deploy the project on th
     userSlice.js 
     and then wrap the body inside the <Provider> <Body> <Provider/> in app.js(root)
 
-- As sooon as user signIn/signUp i want to update the Store/userSlice with that user information => we have to write the dipatch action in signIn & SignUp & signOut also => so we are going to use the utility provided by the firebase which is known as "onAuthStateChanged" API => this is called whenever the authentication state is changed (signIn signOut => this will called automatically )
+- As soon as user signIn/signUp i want to update the Store/userSlice with that user information => we have to write the dipatch action in signIn & SignUp & signOut also => so we are going to use the utility provided by the firebase which is known as "onAuthStateChanged" API => this is called whenever the authentication state is changed (signIn signOut => this will called automatically )
 
 - SignOut functionality
 - updated Profile
 - BugFix: Sign Up user displayName and profile picture update
 
 # Day-2
-- BugFix (routing Bugs => if the user is not logged in Redirect /browse to Login Page and vice-versa  => if i am login already then if i access /login it should redirect to /browse and same without login i should not acces /browse )
+- BugFix (routing Bugs => if the user is not logged in Redirect /browse to Login Page and vice-versa  => if i am login already then if i access /login it should redirect to /browse and same without login I should not access /browse )
 - unsubscribed to the onAuthStateChanged callback
 - Adding hardcoded value to the constant file 
 - Register TMDB Api & create an app & get access token 
@@ -46,9 +46,9 @@ configured the project on the FireBase and you can also deploy the project on th
 - create movieSlice
 - update store with the movies data
 - planning for the mainContainer & secondary container 
-- fetch data for trailer vides
+- fetch data for trailer videos
 - update Store with Trailer video data
-- Embeded the Youtube video and make it autoPlay and mute and on loop
+- Embedded the Youtube video and make it autoPlay and mute and on loop
 
 Creating Movie Suggestions List
 - Build secondary component
@@ -98,7 +98,7 @@ Showing Popular Movies List on Browse Page
         - Movie Suggestion
             - MoviesList
 
-- NetflixGpt
+- GEMFLIX
     - search Bar
     - Movie Suggestions
 

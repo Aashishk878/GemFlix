@@ -1,6 +1,6 @@
-# Netflix GPT - Movie Recommendation Platform
+# GemFlix- Movie Recommendation Platform
 
-A modern Netflix clone built with React that uses AI to provide personalized movie recommendations. The application integrates with TMDB API for movie data and Google's Gemini AI for intelligent search functionality.
+A modern streaming platform built with React that uses AI to provide personalized movie recommendations. The application integrates with TMDB API for movie data and Google's Gemini AI for intelligent search functionality.
 
 ## 🚀 Features
 
@@ -40,12 +40,12 @@ A modern Netflix clone built with React that uses AI to provide personalized mov
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/NetflixGPT.git
+git clone https://github.com/Aashishk878/GemFlix.git
 ```
 
 2. Install dependencies:
 ```bash
-cd NetflixGPT
+cd GEMFLIX
 npm install
 ```
 
@@ -70,7 +70,7 @@ The following environment variables are required:
 ## 🏗️ Project Structure
 
 ```
-NetflixGPT/
+GEMFLIX/
 ├── src/
 │   ├── components/         # React components
 │   ├── hooks/             # Custom hooks
