@@ -11,17 +11,26 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMjY0MTJhMWVlMDRlYjE1Y2Q5OWQwZmFjNTUxYjkxNyIsIm5iZiI6MTczODE2ODgxNy4xNDIwMDAyLCJzdWIiOiI2NzlhNTlmMWI0YjZmOTE0NTNhOThhZTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.VxSIkEpeYOlGHqOrpUvPYFEmZv1Xd5qBVsH7gV9pQas",
+    Authorization: "Bearer " + import.meta.env.VITE_TMDB_API_KEY,
   },
 };
 
-export const TMDB_API_NOW_PLAYING="https://api.themoviedb.org/3/movie/now_playing?page=1";
+export const TMDB_API_NOW_PLAYING =
+  "https://api.themoviedb.org/3/movie/now_playing?page=1";
 
-export const TMDB_API_POPULAR="https://api.themoviedb.org/3/movie/popular?page=1"; 
+export const TMDB_API_POPULAR =
+  "https://api.themoviedb.org/3/movie/popular?page=1";
 
-export const TMDB_API_TOP_RATED="https://api.themoviedb.org/3/movie/top_rated?page=1";
+export const TMDB_API_TOP_RATED =
+  "https://api.themoviedb.org/3/movie/top_rated?page=1";
 
-export const TMDB_API_UPCOMING="https://api.themoviedb.org/3/movie/upcoming?page=1";
+export const TMDB_API_UPCOMING =
+  "https://api.themoviedb.org/3/movie/upcoming?page=1";
 
-export const IMG_CDN_URL= "https://image.tmdb.org/t/p/w500";
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
