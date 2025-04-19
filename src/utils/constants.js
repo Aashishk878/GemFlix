@@ -1,5 +1,5 @@
-export const Gemflix_Logo =
-  "/gemflix_logo.png";
+// export const Gemflix_Logo =
+//   "/gemflix_logo.png";
 
 export const USER_AVATAR =
   "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png";
